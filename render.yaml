@@ -1,10 +1,7 @@
 services:
   - type: web
-    name: VJ-Filter-Bot
+    name: JiC54series
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
     plan: free
-    envVars:
-      - key: PORT
-        value: 8080
