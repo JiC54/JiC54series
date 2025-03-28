@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: JiC54series
+    name: VJ-Filter-Bot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
